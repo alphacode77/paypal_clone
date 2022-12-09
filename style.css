@@ -146,7 +146,7 @@ ul{
 .world-container{
     background-color: var(--very-light-color);
     width: 100%;
-    height: 50vh;
+    height: 55vh;
     padding: 20px var(--padding-inline-section) 0;
     justify-content: center;
     gap: 40px;
@@ -162,4 +162,132 @@ ul{
 .img1{
     width: 300px;
     height: 300px;
+}
+
+/* Shopping section */
+.shopping-container{
+    background-color: #fff;
+    width: 100%;
+    height: 50vh;
+    padding: 20px var(--padding-inline-section) 0;
+    justify-content: center;
+    gap: 40px;
+}
+.shopping-left{
+    max-width: 40vw;
+}
+
+.shopping-left h3, p, a{
+    margin-block: 15px;
+}
+
+.img2{
+    width: 300px;
+    height: 300px;
+}
+
+/* Payment Section */
+.payment-container{
+    background-color: var(--very-light-color);
+    width: 100%;
+    height: 55vh;
+    padding: 20px var(--padding-inline-section) 0;
+    justify-content: center;
+    gap: 40px;
+}
+.payment-left{
+    max-width: 40vw;
+}
+
+.payment-left h3, p, a{
+    margin-block: 15px;
+}
+
+.img1{
+    width: 300px;
+    height: 300px;
+}
+
+/* Shopping section */
+.payment-container{
+    background-color: #fff;
+    width: 100%;
+    height: 50vh;
+    padding: 20px var(--padding-inline-section) 0;
+    justify-content: center;
+    gap: 40px;
+}
+.payment-left{
+    max-width: 40vw;
+}
+
+.payment-left h3, p, a{
+    margin-block: 15px;
+}
+
+.img3{
+    width: 300px;
+    height: 300px;
+}
+
+/* E-commerece section */
+.ecommerce-container{
+    background-color: #fff;
+    width: 100%;
+    height: 50vh;
+    padding: 20px var(--padding-inline-section) 0;
+    justify-content: center;
+    gap: 40px;
+}
+.ecommerce-left{
+    max-width: 40vw;
+}
+
+.ecommerce-left h3, p, a{
+    margin-block: 15px;
+}
+
+.img3{
+    width: 300px;
+    height: 300px;
+}
+
+/* testimonial container */
+.testimonial-container{
+    background-color: var(--very-light-color);
+    height: 40vh;
+    flex-direction: column;
+}
+
+.test--text-container{
+    margin: 50px 0px 25px 0px ;
+}
+
+.text-img-container img{
+    margin: 10px;
+}
+
+.comp-img1{
+    padding-bottom: 10px;
+}
+
+/* paypal-user section */
+.puser-container{
+    background-color: var(--light-accent-color);
+    width: 100%;
+    height: 50vh;
+    padding: 20px var(--padding-inline-section) 0;
+    text-align: center;
+}
+.puser-container h3{
+    color: white !important; 
+    margin-block: 20px;
+    padding-block: 10px;
+}
+
+/*term & condition section */
+.term-container{
+    height: 35vh;
+    padding: 30px 45px 0;
+
 }
