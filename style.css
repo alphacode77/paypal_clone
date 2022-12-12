@@ -15,7 +15,7 @@ box-sizing: border-box;
     --dark-accent-color: #02387b;
     --light-accent-color: #00a8ea;
     --very-light-color: #f5f7fa;
-    --padding-inline-section: 30px;
+    --padding-inline-section: 0 30px;
 }
 
 body{
@@ -43,6 +43,7 @@ p{
 a{
     display: inline-block;
     text-decoration: none;
+    color: black;
 }
 
 ul{
@@ -95,9 +96,7 @@ ul{
     height:50px;
 } 
 
-.link{
-    gap: 30px;
-}
+
 
 .login,.singup{
     width: 60px;
@@ -122,6 +121,9 @@ ul{
     color: #ffff;
     margin-top: 50px;
     margin-bottom: 15px;
+    padding: 0 250px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .intro-feature2 {
@@ -136,6 +138,10 @@ ul{
 .heading2{
     color: #ffff;
     margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 0px 25px;
 }
 .paypal-btn{
     margin-block: 10px;
@@ -149,7 +155,7 @@ ul{
     height: 55vh;
     padding: 20px var(--padding-inline-section) 0;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
 }
 .world-left{
     max-width: 40vw;
@@ -171,7 +177,8 @@ ul{
     height: 50vh;
     padding: 20px var(--padding-inline-section) 0;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
+    
 }
 .shopping-left{
     max-width: 40vw;
@@ -193,7 +200,8 @@ ul{
     height: 55vh;
     padding: 20px var(--padding-inline-section) 0;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
+
 }
 .payment-left{
     max-width: 40vw;
@@ -215,7 +223,8 @@ ul{
     height: 50vh;
     padding: 20px var(--padding-inline-section) 0;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
+
 }
 .payment-left{
     max-width: 40vw;
@@ -237,7 +246,8 @@ ul{
     height: 50vh;
     padding: 20px var(--padding-inline-section) 0;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
+
 }
 .ecommerce-left{
     max-width: 40vw;
@@ -283,6 +293,8 @@ ul{
     color: white !important; 
     margin-block: 20px;
     padding-block: 10px;
+    font-weight: 400;
+
 }
 
 /*term & condition section */
@@ -290,4 +302,26 @@ ul{
     height: 35vh;
     padding: 30px 45px 0;
 
+}
+
+/* Footer Section */
+.important_links1{
+height: 8vh;
+padding: 25px 45px 10px;
+gap: 20px;
+}
+ 
+.important_links2{
+justify-content: space-between;
+padding: 0 45px;
+}
+
+.sub_link1,.sub_link2{
+    gap: 15px;
+
+}
+
+.text-policy p{
+    padding: 0 45px;
+    font-size: 0.8rem;
 }
